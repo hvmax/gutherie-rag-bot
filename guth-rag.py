@@ -27,7 +27,7 @@ st.write("This chatbot uses the textbooks - 'Global Realities & Dragon in a Thre
 def load_components():
     """Loads all the necessary components for the RAG pipeline."""
     # --- Configuration ---
-    # EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
+    EMBEDDING_MODEL_NAME = "BAAI/bge-base-en-v1.5"
     # Dynamically create the index path based on the model name
     FAISS_INDEX_PATH = f"faiss_index_{EMBEDDING_MODEL_NAME.replace('/', '_')}"
     DATA_PATH = "./"
