@@ -19,7 +19,7 @@ from langchain.prompts import PromptTemplate
 # --- App Config ---
 st.set_page_config(page_title="Textbook Chatbot")
 st.title("Chat with Your TextBooks")
-st.write("This chatbot uses the textbooks - 'Global Realities & Dragon in a Three Piece suit")
+st.write("This chatbot uses the textbooks - 'Global Realities & Dragon in a Three Piece suit'")
 
 # --- Configuration & Caching ---
 # Use Streamlit's caching to load the model and index only once.
