@@ -1,0 +1,12 @@
+streamlit
+langchain-community
+langchain
+langchain-groq
+faiss-cpu
+torch
+sentence-transformers
+huggingface-hub
+pdf2image
+pdfminer.six
+pypdf
+unstructured[pdf]
