@@ -76,7 +76,7 @@ def get_qa_chain(_vector_store):
     # Connect to the Groq API (uses GROQ_API_KEY from st.secrets)
     llm = ChatGroq(
         temperature=0.1,
-        model_name="llama3-70b-8192", # Updated to a recommended Groq model
+        model_name="openai/gpt-oss-120b", # Updated to a recommended Groq model
         api_key=st.secrets["GROQ_API_KEY"]
     )
 
